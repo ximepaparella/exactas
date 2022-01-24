@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 0;
+  flex-wrap: nowrap;
+
+  .item {
+    background-color: #66a4ba;
+    padding: 0.2em 0.7em;
+    color: #fff;
+    cursor: pointer;
+
+    &:last-child {
+      background-color: transparent;
+      border: 1px solid #66a4ba;
+      color: #08bebe;
+
+      &:hover {
+        background-color: #08bebe;
+        border: 1px solid #08bebe;
+        color: #fff;
+      }
+    }
+
+    &:hover {
+      background-color: #08bebe;
+    }
+  }
+}
