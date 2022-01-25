@@ -5,7 +5,7 @@ const MOCK = [
   },
   {
     title: "Acerca De",
-    link: "/",
+    link: "/acerca-de",
   },
 
   {
@@ -16,11 +16,17 @@ const MOCK = [
     title: "Servicios",
     link: "/servicios",
     subItems: [
-      { text: "Provisión de Material", link: "/provision-de-material" },
-      { text: "Preservación del material", link: "/preservacion-del-material" },
-      { text: "Capacitaciones", link: "/capacitaciones" },
-      { text: "Asesoría", link: "/asesoria" },
-      { text: "Otros", link: "/otros" },
+      {
+        text: "Provisión de Material",
+        link: "/servicios/provision-de-material",
+      },
+      {
+        text: "Preservación del material",
+        link: "/servicios/preservacion-del-material",
+      },
+      { text: "Capacitaciones", link: "/servicios/capacitaciones" },
+      { text: "Asesoría", link: "/servicios/asesoria" },
+      { text: "Otros", link: "/servicios/otros" },
     ],
   },
   {
@@ -46,8 +52,8 @@ const MOCK = [
   {
     title: "Usuario",
     subItems: [
-      { text: "Iniciar sesión", link: "/iniciar-sesion" },
-      { text: "Registro de usuario", link: "/registrarse" },
+      { text: "Iniciar sesión", link: "/usuario/iniciar-sesion" },
+      { text: "Registro de usuario", link: "/usuario/registrarse" },
     ],
   },
 ];

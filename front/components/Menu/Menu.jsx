@@ -3,7 +3,7 @@ import MOCK from "./data";
 
 import styles from "./Menu.module.scss";
 
-const Menu = ({ ...r }) => {
+const Menu = () => {
   return (
     <nav className={styles["navigation"]}>
       {MOCK.map(({ title, link, i }) => (
