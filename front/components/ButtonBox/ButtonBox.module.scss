@@ -1,0 +1,17 @@
+.btn-box {
+  width: 100%;
+  padding: var(--spacing-m);
+  display: flex;
+
+  .pink {
+    background-color: var(--pink);
+  }
+
+  .yellow {
+    background-color: var(--yellow);
+  }
+
+  .blue {
+    background-color: var(--blue);
+  }
+}

@@ -1,15 +1,111 @@
+:root {
+  --primary: #00688c;
+  --secondary: #66a4ba;
+  --hover: #04a4cc;
+  --text: #444;
+  --white: #fff;
+  --black: #000;
+  --grey-100: #fefefe;
+  --grey-200: #ccc;
+  --grey-300: #ddd;
+  --grey-400: #666;
+  --grey--500: #333;
+  --green: #057878;
+  --yellow: #ffd50b;
+  --pink: #ff3cac;
+  --violet: #970057;
+  --aquamarine: #08bebe;
+
+  --font-s: 1rem;
+  --font-m: 1.5rem;
+  --font-l: 2rem;
+  --font-xl: 2.5rem;
+  --font-menu: 1.25rem;
+
+  --spacing-xs: 0.5rem;
+  --spacing-s: 1rem;
+  --spacing-m: 1rem;
+  --spacing-l: 2rem;
+  --spacing-xl: 2.5rem;
+
+  --font-default: "Archivo Narrow", Helvetica, Arial, sans-serif;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font: 300 20px/1.4 "Archivo Narrow", Helvetica, Arial, sans-serif;
+  font-family: var(--font-default);
+  font-size: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: var(--font-default) !important;
+  letter-spacing: 0;
 }
 
 a {
-  color: inherit;
+  color: var(--pink);
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.font-s {
+  font-size: var(--font-s);
+  letter-spacing: 0;
+}
+
+.font-m {
+  font-size: var(--font-m);
+  letter-spacing: 0;
+}
+
+.font-l {
+  font-size: var(--font-l);
+  letter-spacing: 0;
+}
+
+.font-xl {
+  font-size: var(--font-xl);
+  letter-spacing: 0;
+}
+
+.font-menu {
+  font-size: var(--font-menu);
+  letter-spacing: 0;
+}
+
+.font-light {
+  font-weight: 100;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
 }
