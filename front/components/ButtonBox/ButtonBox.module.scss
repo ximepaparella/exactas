@@ -2,6 +2,11 @@
   width: 100%;
   padding: var(--spacing-m);
   display: flex;
+  color: var(--white);
+
+  &:hover {
+    color: var(--black);
+  }
 
   .pink {
     background-color: var(--pink);
