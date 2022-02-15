@@ -1,12 +1,10 @@
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
+
 import IntroText from "../components/IntroText";
 import ButtonBox from "../components/ButtonBox";
 
 const Home = () => {
   return (
-    <Grid container spacing={2}>
-      <Grid item xs={3}>
+<>
         <IntroText
           text="El Centro de Recursos Genéticos de la FCEN - UBA (CRG) es creado
         mediante Resolución (CD) Nº 1560/18, con el objeto de asegurar la
@@ -18,24 +16,8 @@ const Home = () => {
         y de la sociedad en su conjunto, participando con un rol activo en el
         desarrollo de innovaciones biotecnológicas."
         ></IntroText>
-      </Grid>
-      <Grid item xs={6}>
-        Columna Texto intro
-      </Grid>
-      <Grid item xs={3}>
-        <Typography
-          className="primary font-l text-center font-light"
-          variant="h1"
-          gutterBottom
-        >
-          CATÁLOGO
-        </Typography>
 
-        <ButtonBox text="Microorganismos" type="blue" />
-        <ButtonBox text="Líneas celulares" type="yellow" />
-        <ButtonBox text="Plásmidos" type="pink" />
-      </Grid>
-    </Grid>
+        </>
   );
 };
 
