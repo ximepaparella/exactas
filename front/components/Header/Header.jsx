@@ -1,11 +1,12 @@
 import * as React from "react";
+import Grid from "@mui/material/Grid";
 
 import styles from "./Header.module.scss";
 
 const Header = ({ ...r }) => {
   return (
     <header className={styles["header"]}>
-    
+      <Grid container spacing={0} justifyContent="center">
         <a href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +34,7 @@ const Header = ({ ...r }) => {
             ></path>
           </svg>
         </a>
-
+      </Grid>
     </header>
   );
 };
